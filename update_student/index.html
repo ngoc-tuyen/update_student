@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-left">
+            <div class="header-logo">
+                <p style="font-size:30px; position: absolute; left: 6%;"></p>
+                <img src="Logo_BTEC.png" alt="" class="header-logo-img">
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="header-right-bell">
+                <img src="icon/bell.png" alt="" class="header-right-bell-img">
+            </div>
+            <div class="header-right-mail">
+                <p>abcxyz112@fpt.edu.vn</p>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main-menu">
+            <ul class="main-menu-list">
+                <li class="main-menu-item">Dashbroad</li>
+                <li class="main-menu-item">Course</li>
+                <li class="main-menu-item">Student</li>
+
+            </ul>
+            <div class="main-menu-bottom">
+                <div class="main-menu-bottom-i">
+                    <img src="icon/user.png" class = "z"alt="">
+                </div>
+                <div class="main-menu-bottom-i">
+                    <p>Fullname</p>
+                    <span>Text...</span>
+                </div>
+                <div class="main-menu-bottom-i">
+                    <img src="icon/scroll.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="main-edit">
+            <h2 style="position: absolute; left: 33%;">Update Student</h2>
+            <div class="main-edit-main">
+                <div class="main-edit-left">
+                    <label for="name">Student name</label>
+                    <input type="text" name="name" id="name" placeholder="New name"><br/>
+                    <label for="email">Email</label><br/>
+                    <input type="text" name="email" id="email" placeholder="Email"><br/>
+                    <label for="address">Address</label><br/>
+                    <input type="text" name="address" id="address" placeholder="Address"><br/>
+                    <label for="dob">Date of birth</label><br/>
+                    <input type="text" name="dob" id="dob" placeholder="dd/mm/yyyy">
+                    <div class="main-edit-left-wrap">
+                        <label for="select">Choose Course</label><br/>
+                        <div class="main-edit-left-trainer-select">
+                            <select name="select" id="select">
+                                <option value="#">
+                                    <img src="icon/user.png" alt="">
+                                    <span></span>
+                                    <span>Choose Course</span>
+                                </option>
+                                <option value="#">
+                                    <img src="icon/user.png" alt="">
+                                    <span></span>
+                                    <span>Java</span>
+                                </option>
+
+                                <option value="#">
+                                    <img src="icon/user.png" alt="">
+                                    <span></span>
+                                    <span>Html</span>
+                                </option>
+                                <option value="#">
+                                    <img src="icon/user.png" alt="">
+                                    <span></span>
+                                    <span>...</span>
+                                </option>
+                            </select>
+                        </div>                        
+
+                        
+                        <div class="main-edit-function">
+                            <button>Save</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-edit-right">
+                    <div class="main-edit-right-detail">
+                        Detail
+                    </div>
+                    <div class="main-edit-right-cat">
+                        <label for="cat">Choose category</label>
+                        <select name="cat" id="cat">
+                            <option value="#">1</option>
+                            <option value="#">2</option>
+                            <option value="#">3</option>
+                        </select>
+                    </div>
+                    <div class="main-edit-right-image">
+                        <label for="im">Image</label>
+                        <div class="main-edit-right-image-inp">
+                            <input type="text" name="in" id="in">
+                            <button>Broswer</button>
+                        </div>
+                    </div>
+                    <div class="main-right-schedual">
+                        <div class="main-right-schedual-left">
+                            <p>Schedual</p>
+                            <div>
+                                <span>Start :</span> <input type="date" name="" id="">
+                            </div>
+                            <div>
+                                <span>End :</span> <input type="date" name="" id="">
+                            </div>
+                        </div>
+                        <div class="main-right-schedual-right">
+                            <input type="date" name="date" id="date">
+                        </div>
+                    </div>
+                    <div class="main-right-des">
+                        <span>Description</span>
+                        <textarea  rows=10 columns= 10 name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-edit-main">
+                <p>Description</p>
+                <input type="text">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
